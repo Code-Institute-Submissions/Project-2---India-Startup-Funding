@@ -1,19 +1,23 @@
 LIVE DEMO LINK
 ==============
-https://vfs.cloud9.us-east-2.amazonaws.com/vfs/8e1fb160a19943e4a179f2634afd724a/preview/startup/index.html
+https://vfs.cloud9.us-east-2.amazonaws.com/vfs/8e1fb160a19943e4a179f2634afd724a/preview/index.html#navsummary
 
 
 BACKGROUND:
 ==========
-* This dataset was taken from https://www.kaggle.com/.  It provides funding information on the India startups from Janaury 2016 to August 2017.  It includes information on the date funded, the state the startups are based out of, the names of the startups, the names of the funders, the industry of these startups and the amount invested (in USD).
+* This data set was taken from https://www.kaggle.com.  It provides funding information on the India startups from Janaury 2016 to August 2017.
 
-* There are 1433 startups that get funding during this period.  Total amount funded is about USD 9.65 billion, of which 98.28% is from Private Equity and 1.72% is from Seed Funding. In total 801 new startups received USD 165 million. Each new startup received average USD 205,000 in seed Funding. For the same period, Equity Funding of USD 9.5 billion was invested in 632 existing startups. Each exisitng startup received average USD 15 million in funding.   
+* Breakdown of funding
+  * 1429 startups received funding of USD 9.65 billion, of which 98.28% is from Private Equity and 1.72% is from Seed Funding. 
+  * Seed funding of USD165 million was invested in 801 new startups, average USD 205,000 per startup. Seed funding is the 1st round of funding received by startups. 
+  * Equity Funding of USD 9.5 billion was invested in 632 existing startups, average USD 15 million per startup. Equity funding is the subsequent post seed funding.
 
-* Top 3 state in India with the most startup are Bangalore, Mumbai and New Delhi.
+* Top 3 state and sector
+  * Bangalore, Mumbai and New Delhi have the most startups. 
+  * Consumer Internet, eCommerce and Technology are sectors that favoured by investors.
 
-* Top 3 sector that received the most funding are eCommerce, Consumer Internet and Technology.
 
-* Top 5 startup that received the most funding are :
+* Startup that received the most funding
      1) Flipkart  - An eCommerce shopping platform founded in year 2007.
      2) Paytm - A digital payment and eCommerce platform founded in year 2010.
      3) Ola Cabs - A transportation platform founded in year 2010 (similar to Uber).
@@ -21,10 +25,9 @@ BACKGROUND:
      5) Snapdeal - An eCommerce shopping platform founded in year 2007.
 
 
- 
 UX DESIGN:
 ==========
-* The data was presented in charts and graphs using D3, DC and Crossfilter for user to have a quick understanding of the Indian startup landscape. 
+* The data was presented in charts and graphs using D3, DC and Crossfilter for user to have a quick understanding of the India startup landscape. 
 
 * The 1st row give a quick breakdown on total number of startup based on state as well as the size and type of funding. 
 

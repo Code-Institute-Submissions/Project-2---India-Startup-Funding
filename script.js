@@ -90,7 +90,7 @@ function makeGraphs(error, startupcsv) {
 
     dc.pieChart('#funding-breakdown-usd')
         .height(400)
-        .radius(140)
+        .radius(160)
         .transitionDuration(1500)
         .dimension(funding_dim)
         .group(funding)
@@ -115,7 +115,7 @@ function makeGraphs(error, startupcsv) {
 
     dc.pieChart('#funding-breakdown-startupNo')
         .height(400)
-        .radius(140)
+        .radius(160)
         .transitionDuration(1500)
         .dimension(funding2_dim)
         .group(funding2)

@@ -23,9 +23,19 @@
 
 
 <body>
+    <main class="container-fluid">
     <!--<div class='col'> this will show all chart in the same row-->
     <!--to show one chart per row, change 'col-md-12'-->
     <div class='row'>
+        <div class='col-12 header'>
+            <div class="row justify-content-around">
+                <h3>India Startup Funding (Jan 2016 - Jul 2017) </h3>
+                <div class="col-4"></div>
+                <a href="#navsummary" class="btn btn-light" value="summary">Report</a>
+                </div>
+        </div>
+        
+        
         
         <div class='col-md-6 col-sm-12 chart'>
             <h5>India State With The Most Startup</h5>
@@ -69,8 +79,28 @@
         </div>
         
         
-    </div>
+        <div class='anchor' id="navsummary">
+            <h4>Summary</h4>
+            <div class = "summaryContent"
+            <p>This data set was taken from https://www.kaggle.com.  It provides funding information on the India startups from Janaury 2016 to August 2017.  </p>
+            
+            <h6>Breakdown on funding</h6>
+            <p>1429 startups received funding of USD 9.65 billion, of which 98.28% is from Private Equity and 1.72% is from Seed Funding. <br>Seed funding of USD165 million was invested in 801 new startups, average USD 205,000 per startup. Seed funding is the 1st round of funding received by startups. <br>Equity Funding of USD 9.5 billion was invested in 632 existing startups, average USD 15 million per startup. Equity funding is the subsequent post seed funding.</p> 
 
+            <h6>Top 3 state and sector</h6>
+            <p>Bangalore, Mumbai and New Delhi have the most startups. <br>Consumer Internet, eCommerce and Technology are sectors that favoured by investors.</p>
+            
+            <h6>Startup that received the most funding</h6>
+            1) Flipkart  - An eCommerce shopping platform founded in year 2007
+            <br>2) Paytm - A digital payment and eCommerce platform founded in year 2010.
+            <br>3) Ola Cabs - A transportation platform founded in year 2010 (similar to Uber).
+            <br>4) Oyo Rooms - A Hotel Chain founded in year 2013.  It is the world third latest Hotel Chain.
+            <br>5) Snapdeal - An eCommerce shopping platform founded in year 2007.</p>
+            </div>
+        </div>
+        
+    </div>
+</main>
 
 
 

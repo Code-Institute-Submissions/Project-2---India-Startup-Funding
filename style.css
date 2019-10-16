@@ -1,0 +1,48 @@
+.chart{
+    padding: 20px 30px;
+    text-align: center;
+}
+
+
+.header{
+    padding: 20px 30px;
+    background-color:  #2f7eb6;
+    color: white;
+    margin-bottom: 20px
+}
+
+.button {
+    right:0;
+}
+
+
+#navsummary {
+    margin :0px 50px;
+}
+
+
+.summary a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.summaryContent{
+    font-size: 16px;
+}
+
+
+h4{
+    font-weight: 600;
+    margin-top: 100px;
+    color: #4d4d4d;
+}
+
+
+h6{
+    margin-top: 30px;
+    text-decoration: underline;
+    font-size: 17px;
+    font-weight: 600;
+     color: #4d4d4d;
+}
