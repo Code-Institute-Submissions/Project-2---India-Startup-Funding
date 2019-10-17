@@ -1,6 +1,6 @@
 LIVE DEMO LINK
 ==============
-https://vfs.cloud9.us-east-2.amazonaws.com/vfs/8e1fb160a19943e4a179f2634afd724a/preview/index.html#navsummary
+https://eileensiah.github.io/Project-2---India-Startup-Funding/
 
 
 BACKGROUND:
@@ -55,8 +55,6 @@ FEATURES
 * Charts and graphs are self explanatory. They help user to understand complex data within minutes.
 * To know more on funding in Bangalore, user just need to click on Bangalore bar in the 1st chart (India State With The Most Startup). The rest of the chart will show all the relevant information on Bangalore.
 * Website is design using mobile-first approach.
-
-
 
 
 
